@@ -15,7 +15,10 @@ setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="Multi-language AI customer support chatbot providing intent detection, multilingual response generation, and retrieval capabilities",
+    description="""
+    Multi-language AI customer support chatbot providing intent detection, multilingual response generation, and retrieval capabilities,
+    multilingual understanding, memory modules, and tool integrations for improved automated support across languages.
+    """,
     long_description=long_description,
     long_description_content_type="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
