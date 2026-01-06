@@ -1,0 +1,43 @@
+
+# Core web and API
+fastapi
+uvicorn[standard]
+
+# Data validation / HTTP
+pydantic
+httpx[http2]
+
+# LLMs and RAG
+openai
+langchain
+sentence-transformers
+chromadb
+faiss-cpu
+
+# Transformers / local models
+transformers
+torch
+tiktoken
+
+# NLP / multilingual
+spacy
+python-dotenv
+
+# Caching / persistence
+redis
+aioredis
+sqlalchemy
+alembic
+
+# Logging, serialization
+structlog
+orjson
+
+# Testing & dev tooling
+pytest
+pytest-asyncio
+black
+isort
+ruff
+pre-commit
+
